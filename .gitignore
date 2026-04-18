@@ -6,5 +6,9 @@ smart-context-*.json
 smart-context-*.md
 smart-context-*.html
 smart-context-*.xml
+smart-context.md
+smart-context.prompt.md
+smart-context.token-report.html
+smart-context.token-report.json
 vscode-smart-context-wrapper/*.vsix
 node_modules/

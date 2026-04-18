@@ -3,7 +3,7 @@
   "displayName": "GraphCLI Wrapper",
   "description": "Command Palette wrapper for GraphCLI fast workflows",
   "version": "0.0.1",
-  "publisher": "graphcli",
+  "publisher": "d457ec72-2115-6936-b7ea-b4108b0e254f",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.90.0"
