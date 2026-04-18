@@ -1,0 +1,68 @@
+{
+  "communities": 5,
+  "topCommunities": [
+    {
+      "id": "community-1",
+      "files": 54,
+      "edgeCount": 114
+    },
+    {
+      "id": "community-3",
+      "files": 9,
+      "edgeCount": 8
+    },
+    {
+      "id": "community-2",
+      "files": 1,
+      "edgeCount": 0
+    },
+    {
+      "id": "community-4",
+      "files": 1,
+      "edgeCount": 0
+    },
+    {
+      "id": "community-5",
+      "files": 1,
+      "edgeCount": 0
+    }
+  ],
+  "topFlows": [
+    {
+      "id": "flow-3",
+      "criticality": 15,
+      "depth": 1,
+      "startFile": "src/cli.ts"
+    },
+    {
+      "id": "flow-1",
+      "criticality": 12,
+      "depth": 1,
+      "startFile": "src/benchmark.ts"
+    },
+    {
+      "id": "flow-5",
+      "criticality": 5,
+      "depth": 1,
+      "startFile": "src/graphStore.ts"
+    },
+    {
+      "id": "flow-6",
+      "criticality": 5,
+      "depth": 1,
+      "startFile": "src/hotpath.ts"
+    },
+    {
+      "id": "flow-7",
+      "criticality": 5,
+      "depth": 1,
+      "startFile": "src/incremental.ts"
+    },
+    {
+      "id": "flow-8",
+      "criticality": 5,
+      "depth": 1,
+      "startFile": "src/indexer.ts"
+    }
+  ]
+}

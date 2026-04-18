@@ -1,0 +1,307 @@
+[
+  {
+    "id": "flow-3",
+    "name": "Flow from src/cli.ts",
+    "startFile": "src/cli.ts",
+    "depth": 1,
+    "path": [
+      "src/cli.ts",
+      "external:commander"
+    ],
+    "criticality": 15
+  },
+  {
+    "id": "flow-18",
+    "name": "Flow from src/oneClick.ts",
+    "startFile": "src/oneClick.ts",
+    "depth": 1,
+    "path": [
+      "src/oneClick.ts",
+      "external:commander"
+    ],
+    "criticality": 14
+  },
+  {
+    "id": "flow-1",
+    "name": "Flow from src/benchmark.ts",
+    "startFile": "src/benchmark.ts",
+    "depth": 1,
+    "path": [
+      "src/benchmark.ts",
+      "external:node:fs"
+    ],
+    "criticality": 12
+  },
+  {
+    "id": "flow-16",
+    "name": "Flow from src/mcp/tools/review.ts",
+    "startFile": "src/mcp/tools/review.ts",
+    "depth": 1,
+    "path": [
+      "src/mcp/tools/review.ts",
+      "external:zod"
+    ],
+    "criticality": 11
+  },
+  {
+    "id": "flow-17",
+    "name": "Flow from src/mcpServer.ts",
+    "startFile": "src/mcpServer.ts",
+    "depth": 1,
+    "path": [
+      "src/mcpServer.ts",
+      "external:@modelcontextprotocol/sdk/server/mcp.js"
+    ],
+    "criticality": 10
+  },
+  {
+    "id": "flow-26",
+    "name": "Flow from src/treeSitterAdapter.ts",
+    "startFile": "src/treeSitterAdapter.ts",
+    "depth": 1,
+    "path": [
+      "src/treeSitterAdapter.ts",
+      "external:node:fs"
+    ],
+    "criticality": 10
+  },
+  {
+    "id": "flow-11",
+    "name": "Flow from src/mcp/tools/analysis.ts",
+    "startFile": "src/mcp/tools/analysis.ts",
+    "depth": 1,
+    "path": [
+      "src/mcp/tools/analysis.ts",
+      "external:node:fs"
+    ],
+    "criticality": 8
+  },
+  {
+    "id": "flow-13",
+    "name": "Flow from src/mcp/tools/core.ts",
+    "startFile": "src/mcp/tools/core.ts",
+    "depth": 1,
+    "path": [
+      "src/mcp/tools/core.ts",
+      "external:node:fs"
+    ],
+    "criticality": 8
+  },
+  {
+    "id": "flow-14",
+    "name": "Flow from src/mcp/tools/flows.ts",
+    "startFile": "src/mcp/tools/flows.ts",
+    "depth": 1,
+    "path": [
+      "src/mcp/tools/flows.ts",
+      "external:zod"
+    ],
+    "criticality": 8
+  },
+  {
+    "id": "flow-15",
+    "name": "Flow from src/mcp/tools/registry.ts",
+    "startFile": "src/mcp/tools/registry.ts",
+    "depth": 1,
+    "path": [
+      "src/mcp/tools/registry.ts",
+      "external:node:fs"
+    ],
+    "criticality": 7
+  },
+  {
+    "id": "flow-19",
+    "name": "Flow from src/parserAdapter.ts",
+    "startFile": "src/parserAdapter.ts",
+    "depth": 1,
+    "path": [
+      "src/parserAdapter.ts",
+      "src/indexer"
+    ],
+    "criticality": 7
+  },
+  {
+    "id": "flow-12",
+    "name": "Flow from src/mcp/tools/communities.ts",
+    "startFile": "src/mcp/tools/communities.ts",
+    "depth": 1,
+    "path": [
+      "src/mcp/tools/communities.ts",
+      "external:zod"
+    ],
+    "criticality": 6
+  },
+  {
+    "id": "flow-21",
+    "name": "Flow from src/postprocessCli.ts",
+    "startFile": "src/postprocessCli.ts",
+    "depth": 1,
+    "path": [
+      "src/postprocessCli.ts",
+      "external:node:fs"
+    ],
+    "criticality": 6
+  },
+  {
+    "id": "flow-28",
+    "name": "Flow from src/universalIndexer.ts",
+    "startFile": "src/universalIndexer.ts",
+    "depth": 1,
+    "path": [
+      "src/universalIndexer.ts",
+      "external:node:crypto"
+    ],
+    "criticality": 6
+  },
+  {
+    "id": "flow-5",
+    "name": "Flow from src/graphStore.ts",
+    "startFile": "src/graphStore.ts",
+    "depth": 1,
+    "path": [
+      "src/graphStore.ts",
+      "external:better-sqlite3"
+    ],
+    "criticality": 5
+  },
+  {
+    "id": "flow-6",
+    "name": "Flow from src/hotpath.ts",
+    "startFile": "src/hotpath.ts",
+    "depth": 1,
+    "path": [
+      "src/hotpath.ts",
+      "external:node:child_process"
+    ],
+    "criticality": 5
+  },
+  {
+    "id": "flow-7",
+    "name": "Flow from src/incremental.ts",
+    "startFile": "src/incremental.ts",
+    "depth": 1,
+    "path": [
+      "src/incremental.ts",
+      "external:node:crypto"
+    ],
+    "criticality": 5
+  },
+  {
+    "id": "flow-8",
+    "name": "Flow from src/indexer.ts",
+    "startFile": "src/indexer.ts",
+    "depth": 1,
+    "path": [
+      "src/indexer.ts",
+      "external:node:path"
+    ],
+    "criticality": 5
+  },
+  {
+    "id": "flow-9",
+    "name": "Flow from src/lspSemanticAdapter.ts",
+    "startFile": "src/lspSemanticAdapter.ts",
+    "depth": 1,
+    "path": [
+      "src/lspSemanticAdapter.ts",
+      "external:node:fs"
+    ],
+    "criticality": 5
+  },
+  {
+    "id": "flow-10",
+    "name": "Flow from src/mcp/common.ts",
+    "startFile": "src/mcp/common.ts",
+    "depth": 1,
+    "path": [
+      "src/mcp/common.ts",
+      "external:node:path"
+    ],
+    "criticality": 4
+  },
+  {
+    "id": "flow-2",
+    "name": "Flow from src/budget.ts",
+    "startFile": "src/budget.ts",
+    "depth": 1,
+    "path": [
+      "src/budget.ts",
+      "src/types"
+    ],
+    "criticality": 3
+  },
+  {
+    "id": "flow-20",
+    "name": "Flow from src/postprocess.ts",
+    "startFile": "src/postprocess.ts",
+    "depth": 1,
+    "path": [
+      "src/postprocess.ts",
+      "src/types"
+    ],
+    "criticality": 3
+  },
+  {
+    "id": "flow-22",
+    "name": "Flow from src/promptWrapper.ts",
+    "startFile": "src/promptWrapper.ts",
+    "depth": 1,
+    "path": [
+      "src/promptWrapper.ts",
+      "src/types"
+    ],
+    "criticality": 3
+  },
+  {
+    "id": "flow-23",
+    "name": "Flow from src/prune.ts",
+    "startFile": "src/prune.ts",
+    "depth": 1,
+    "path": [
+      "src/prune.ts",
+      "src/types"
+    ],
+    "criticality": 3
+  },
+  {
+    "id": "flow-24",
+    "name": "Flow from src/risk.ts",
+    "startFile": "src/risk.ts",
+    "depth": 1,
+    "path": [
+      "src/risk.ts",
+      "src/types"
+    ],
+    "criticality": 3
+  },
+  {
+    "id": "flow-4",
+    "name": "Flow from src/context.ts",
+    "startFile": "src/context.ts",
+    "depth": 0,
+    "path": [
+      "src/context.ts"
+    ],
+    "criticality": 1
+  },
+  {
+    "id": "flow-25",
+    "name": "Flow from src/tokenUsage.ts",
+    "startFile": "src/tokenUsage.ts",
+    "depth": 0,
+    "path": [
+      "src/tokenUsage.ts"
+    ],
+    "criticality": 1
+  },
+  {
+    "id": "flow-27",
+    "name": "Flow from src/types.ts",
+    "startFile": "src/types.ts",
+    "depth": 0,
+    "path": [
+      "src/types.ts"
+    ],
+    "criticality": 1
+  }
+]

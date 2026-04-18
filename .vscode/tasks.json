@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "GraphCLI: Active File (fast)",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "run",
+        "dev",
+        "--",
+        "--root",
+        "${workspaceFolder}",
+        "--target-file",
+        "${relativeFile}",
+        "--backend",
+        "treesitter",
+        "--provider",
+        "auto",
+        "--compression",
+        "ultra",
+        "--output-format",
+        "packet",
+        "--context-out",
+        "smart-context.packet.json",
+        "--hard-cap",
+        "--max-tokens",
+        "2200"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "GraphCLI: One Click (fast)",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "run",
+        "one-click",
+        "--",
+        "--root",
+        "${workspaceFolder}",
+        "--backend",
+        "treesitter",
+        "--provider",
+        "auto",
+        "--compression",
+        "ultra",
+        "--hard-cap",
+        "--max-tokens",
+        "2200",
+        "--task",
+        "review this patch"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

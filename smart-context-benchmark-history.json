@@ -1,0 +1,12 @@
+[
+  {
+    "generatedAt": "2026-04-18T20:54:54.729Z",
+    "commit": "local",
+    "branch": "local",
+    "reductionRatio": 154.34,
+    "reductionPercent": 99.35,
+    "packetTokens": 370,
+    "naiveTokens": 57104,
+    "totalLatencyMs": 77.17
+  }
+]

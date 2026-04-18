@@ -1,0 +1,46 @@
+{
+  "name": "graphcli-wrapper",
+  "displayName": "GraphCLI Wrapper",
+  "description": "Command Palette wrapper for GraphCLI fast workflows",
+  "version": "0.0.1",
+  "publisher": "graphcli",
+  "icon": "icon.svg",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:graphcli.runActiveFast",
+    "onCommand:graphcli.runOneClickFast",
+    "onCommand:graphcli.runWatchActiveFast",
+    "onCommand:graphcli.openTokenDashboard",
+    "onCommand:graphcli.runOneClickAndOpenDashboard"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "graphcli.runActiveFast",
+        "title": "GraphCLI: Run Active File (Fast)"
+      },
+      {
+        "command": "graphcli.runOneClickFast",
+        "title": "GraphCLI: Run One-Click (Fast)"
+      },
+      {
+        "command": "graphcli.runWatchActiveFast",
+        "title": "GraphCLI: Run Active File Watch (Fast)"
+      },
+      {
+        "command": "graphcli.openTokenDashboard",
+        "title": "GraphCLI: Open Token Dashboard"
+      },
+      {
+        "command": "graphcli.runOneClickAndOpenDashboard",
+        "title": "GraphCLI: One-Click + Open Dashboard"
+      }
+    ]
+  }
+}

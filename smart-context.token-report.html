@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="refresh" content="3" />
+<title>Token Usage Dashboard</title>
+<style>
+:root {
+  --bg1: #0f172a;
+  --bg2: #1e293b;
+  --panel: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --safe: #16a34a;
+  --warn: #d97706;
+  --critical: #dc2626;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Avenir Next', 'Segoe UI', sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at top left, #334155 0%, var(--bg1) 45%, var(--bg2) 100%);
+  min-height: 100vh;
+}
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px 16px 40px;
+}
+.hero {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-radius: 16px;
+  padding: 18px 20px;
+  box-shadow: 0 10px 25px rgba(2, 6, 23, 0.2);
+}
+.hero h1 { margin: 0 0 8px; font-size: 1.5rem; }
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.compare {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+.compare-card {
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.24);
+  color: #fff;
+}
+.compare-card.without {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e3a8a 100%);
+}
+.compare-card.with {
+  background: linear-gradient(135deg, #ea580c 0%, #9a3412 100%);
+}
+.compare-card h2 { margin: 0; font-size: 1.2rem; }
+.compare-card .tokens { margin: 8px 0 6px; font-size: 1.7rem; font-weight: 700; }
+.compare-card .quality { margin: 0; opacity: 0.94; }
+.compare-summary {
+  margin-top: 12px;
+  background: rgba(248, 250, 252, 0.95);
+  color: #0f172a;
+  border-radius: 12px;
+  padding: 10px 14px;
+  display: inline-block;
+}
+.grid {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+.card {
+  background: var(--panel);
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.14);
+  border-top: 6px solid var(--safe);
+}
+.card.warn { border-top-color: var(--warn); }
+.card.critical { border-top-color: var(--critical); }
+.card h3 { margin: 0 0 10px; font-size: 1rem; }
+.metrics { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+.metrics p { margin: 0; padding: 8px; border-radius: 8px; background: #f8fafc; }
+.metrics span { display: block; font-size: 0.75rem; color: var(--muted); }
+.metrics strong { display: block; font-size: 1.05rem; margin-top: 3px; }
+.bar { margin-top: 10px; height: 9px; background: #e2e8f0; border-radius: 999px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: linear-gradient(90deg, #22c55e 0%, #f59e0b 70%, #ef4444 100%); }
+@media (max-width: 640px) {
+  .metrics { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+<section class="hero">
+<h1>Prompt Token Usage</h1>
+<div class="meta">
+<span>Provider: auto</span>
+<span>Compression: ultra</span>
+<span>Budget: 605</span>
+<span>Generated: 2026-04-18T21:11:52.475Z</span>
+<span>Auto-refresh: every 3s</span>
+</div>
+</section>
+<section class="compare">
+<article class="compare-card without">
+<h2>Without Graph (full graph file)</h2>
+<p class="tokens">21402 tokens</p>
+<p class="quality">Quality Score: 5.9/10</p>
+</article>
+<article class="compare-card with">
+<h2>With Graph (smart context packet)</h2>
+<p class="tokens">390 tokens</p>
+<p class="quality">Quality Score: 7.3/10</p>
+</article>
+</section>
+<section class="compare-summary"><strong>54.88x fewer tokens with graph context</strong></section>
+<section class="grid">
+<article class="card safe"><h3>Prompt 1 Context</h3><div class="metrics"><p><span>Used</span><strong>390</strong></p><p><span>Remaining</span><strong>215</strong></p><p><span>Usage</span><strong>64.46%</strong></p></div><div class="bar"><span style="width:64.46%"></span></div></article>
+<article class="card warn"><h3>Prompt 1 With Wrapper</h3><div class="metrics"><p><span>Used</span><strong>559</strong></p><p><span>Remaining</span><strong>46</strong></p><p><span>Usage</span><strong>92.4%</strong></p></div><div class="bar"><span style="width:92.4%"></span></div></article>
+</section>
+</main>
+</body>
+</html>

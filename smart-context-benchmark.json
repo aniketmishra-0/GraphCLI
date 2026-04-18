@@ -1,0 +1,24 @@
+{
+  "root": "/Users/Personal Project/Code_Review",
+  "generatedAt": "2026-04-18T20:54:54.729Z",
+  "latencyMs": {
+    "index": 57.92,
+    "persist": 10.41,
+    "packet": 8.43,
+    "postprocess": 0.42,
+    "total": 77.17
+  },
+  "tokenMetrics": {
+    "packetTokens": 370,
+    "naiveTokens": 57104,
+    "reductionRatio": 154.34,
+    "reductionPercent": 99.35
+  },
+  "retrievalQuality": {
+    "selectedFiles": 15,
+    "totalFiles": 53,
+    "selectedRatio": 0.283,
+    "communities": 27,
+    "flows": 20
+  }
+}

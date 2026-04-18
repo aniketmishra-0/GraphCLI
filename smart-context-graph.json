@@ -1,0 +1,4571 @@
+{
+  "files": [
+    "vscode-smart-context-wrapper/extension.js",
+    "src/benchmark.ts",
+    "src/benchmarkGate.ts",
+    "src/benchmarkTrend.ts",
+    "src/budget.ts",
+    "src/cli.ts",
+    "src/context.ts",
+    "src/graphStore.ts",
+    "src/hotpath.ts",
+    "src/incremental.ts",
+    "src/indexer.ts",
+    "src/lspSemanticAdapter.ts",
+    "src/mcpServer.ts",
+    "src/oneClick.ts",
+    "src/parserAdapter.ts",
+    "src/postprocess.ts",
+    "src/postprocessCli.ts",
+    "src/promptWrapper.ts",
+    "src/prune.ts",
+    "src/risk.ts",
+    "src/tokenUsage.ts",
+    "src/treeSitterAdapter.ts",
+    "src/types.ts",
+    "src/universalIndexer.ts",
+    "src/mcp/common.ts",
+    "src/mcp/tools/analysis.ts",
+    "src/mcp/tools/communities.ts",
+    "src/mcp/tools/core.ts",
+    "src/mcp/tools/flows.ts",
+    "src/mcp/tools/registry.ts",
+    "src/mcp/tools/review.ts"
+  ],
+  "symbols": [
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::file::vscode-smart-context-wrapper/extension.js::I1",
+      "name": "vscode-smart-context-wrapper/extension.js",
+      "kind": "file",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "file:02b6ebf6",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::shellTask::I1",
+      "name": "shellTask",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function shellTask",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::runCommandInTerminal::I2",
+      "name": "runCommandInTerminal",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function runCommandInTerminal",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::workspaceFolder::I3",
+      "name": "workspaceFolder",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function workspaceFolder",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::openTokenDashboard::I4",
+      "name": "openTokenDashboard",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function openTokenDashboard",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::activate::I5",
+      "name": "activate",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function activate",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::deactivate::I6",
+      "name": "deactivate",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function deactivate",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::runActive::I7",
+      "name": "runActive",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function runActive",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::runOneClick::I8",
+      "name": "runOneClick",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function runOneClick",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::runWatchActive::I9",
+      "name": "runWatchActive",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function runWatchActive",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::openDashboard::I10",
+      "name": "openDashboard",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function openDashboard",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::function::disposable::I11",
+      "name": "disposable",
+      "kind": "function",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "function disposable",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::shellTask::I1",
+      "name": "shellTask",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method shellTask",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::runCommandInTerminal::I2",
+      "name": "runCommandInTerminal",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method runCommandInTerminal",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::workspaceFolder::I3",
+      "name": "workspaceFolder",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method workspaceFolder",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::if::I4",
+      "name": "if",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::openTokenDashboard::I5",
+      "name": "openTokenDashboard",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method openTokenDashboard",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::catch::I6",
+      "name": "catch",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::activate::I7",
+      "name": "activate",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method activate",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::if::I8",
+      "name": "if",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::if::I9",
+      "name": "if",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::if::I10",
+      "name": "if",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::if::I11",
+      "name": "if",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "vscode-smart-context-wrapper/extension.js::method::deactivate::I12",
+      "name": "deactivate",
+      "kind": "method",
+      "file": "vscode-smart-context-wrapper/extension.js",
+      "signature": "method deactivate",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 129
+    },
+    {
+      "id": "src/benchmark.ts::file::src/benchmark.ts::I1",
+      "name": "src/benchmark.ts",
+      "kind": "file",
+      "file": "src/benchmark.ts",
+      "signature": "file:2c048502",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 77
+    },
+    {
+      "id": "src/benchmark.ts::function::estimateTokens::I1",
+      "name": "estimateTokens",
+      "kind": "function",
+      "file": "src/benchmark.ts",
+      "signature": "function estimateTokens",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 77
+    },
+    {
+      "id": "src/benchmark.ts::function::runBench::I2",
+      "name": "runBench",
+      "kind": "function",
+      "file": "src/benchmark.ts",
+      "signature": "function runBench",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 77
+    },
+    {
+      "id": "src/benchmark.ts::function::main::I3",
+      "name": "main",
+      "kind": "function",
+      "file": "src/benchmark.ts",
+      "signature": "function main",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 77
+    },
+    {
+      "id": "src/benchmark.ts::function::targetFile::I4",
+      "name": "targetFile",
+      "kind": "function",
+      "file": "src/benchmark.ts",
+      "signature": "function targetFile",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 77
+    },
+    {
+      "id": "src/benchmarkGate.ts::file::src/benchmarkGate.ts::I1",
+      "name": "src/benchmarkGate.ts",
+      "kind": "file",
+      "file": "src/benchmarkGate.ts",
+      "signature": "file:01b9889e",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 35
+    },
+    {
+      "id": "src/benchmarkGate.ts::function::main::I1",
+      "name": "main",
+      "kind": "function",
+      "file": "src/benchmarkGate.ts",
+      "signature": "function main",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 35
+    },
+    {
+      "id": "src/benchmarkGate.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/benchmarkGate.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 35
+    },
+    {
+      "id": "src/benchmarkGate.ts::method::if::I2",
+      "name": "if",
+      "kind": "method",
+      "file": "src/benchmarkGate.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 35
+    },
+    {
+      "id": "src/benchmarkGate.ts::interface::BenchmarkReport::I1",
+      "name": "BenchmarkReport",
+      "kind": "interface",
+      "file": "src/benchmarkGate.ts",
+      "signature": "interface BenchmarkReport",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 35
+    },
+    {
+      "id": "src/benchmarkTrend.ts::file::src/benchmarkTrend.ts::I1",
+      "name": "src/benchmarkTrend.ts",
+      "kind": "file",
+      "file": "src/benchmarkTrend.ts",
+      "signature": "file:530c0889",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 74
+    },
+    {
+      "id": "src/benchmarkTrend.ts::function::env::I1",
+      "name": "env",
+      "kind": "function",
+      "file": "src/benchmarkTrend.ts",
+      "signature": "function env",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 74
+    },
+    {
+      "id": "src/benchmarkTrend.ts::function::main::I2",
+      "name": "main",
+      "kind": "function",
+      "file": "src/benchmarkTrend.ts",
+      "signature": "function main",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 74
+    },
+    {
+      "id": "src/benchmarkTrend.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/benchmarkTrend.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 74
+    },
+    {
+      "id": "src/benchmarkTrend.ts::type::BenchmarkPoint::I1",
+      "name": "BenchmarkPoint",
+      "kind": "type",
+      "file": "src/benchmarkTrend.ts",
+      "signature": "type BenchmarkPoint",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 74
+    },
+    {
+      "id": "src/benchmarkTrend.ts::type::BenchmarkReport::I2",
+      "name": "BenchmarkReport",
+      "kind": "type",
+      "file": "src/benchmarkTrend.ts",
+      "signature": "type BenchmarkReport",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 74
+    },
+    {
+      "id": "src/budget.ts::file::src/budget.ts::I1",
+      "name": "src/budget.ts",
+      "kind": "file",
+      "file": "src/budget.ts",
+      "signature": "file:41366730",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 42
+    },
+    {
+      "id": "src/budget.ts::function::resolveBudget::I1",
+      "name": "resolveBudget",
+      "kind": "function",
+      "file": "src/budget.ts",
+      "signature": "function resolveBudget",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 42
+    },
+    {
+      "id": "src/cli.ts::file::src/cli.ts::I1",
+      "name": "src/cli.ts",
+      "kind": "file",
+      "file": "src/cli.ts",
+      "signature": "file:49af9a19",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/cli.ts::function::execute::I1",
+      "name": "execute",
+      "kind": "function",
+      "file": "src/cli.ts",
+      "signature": "function execute",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/cli.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/cli.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/cli.ts::method::if::I2",
+      "name": "if",
+      "kind": "method",
+      "file": "src/cli.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/cli.ts::method::if::I3",
+      "name": "if",
+      "kind": "method",
+      "file": "src/cli.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/cli.ts::method::if::I4",
+      "name": "if",
+      "kind": "method",
+      "file": "src/cli.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/cli.ts::method::if::I5",
+      "name": "if",
+      "kind": "method",
+      "file": "src/cli.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/cli.ts::method::if::I6",
+      "name": "if",
+      "kind": "method",
+      "file": "src/cli.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/cli.ts::method::if::I7",
+      "name": "if",
+      "kind": "method",
+      "file": "src/cli.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/cli.ts::method::catch::I8",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/cli.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 263
+    },
+    {
+      "id": "src/context.ts::file::src/context.ts::I1",
+      "name": "src/context.ts",
+      "kind": "file",
+      "file": "src/context.ts",
+      "signature": "file:3040e17d",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::renderFileSection::I1",
+      "name": "renderFileSection",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function renderFileSection",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::renderHotPath::I2",
+      "name": "renderHotPath",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function renderHotPath",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::estimateTokens::I3",
+      "name": "estimateTokens",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function estimateTokens",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::compactSignature::I4",
+      "name": "compactSignature",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function compactSignature",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::modeLimits::I5",
+      "name": "modeLimits",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function modeLimits",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::rankFiles::I6",
+      "name": "rankFiles",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function rankFiles",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::generateContextMarkdown::I7",
+      "name": "generateContextMarkdown",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function generateContextMarkdown",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::escapeXml::I8",
+      "name": "escapeXml",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function escapeXml",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::generateContextXml::I9",
+      "name": "generateContextXml",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function generateContextXml",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::generateContextPacket::I10",
+      "name": "generateContextPacket",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function generateContextPacket",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::generateTwoStagePackets::I11",
+      "name": "generateTwoStagePackets",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function generateTwoStagePackets",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::symbols::I12",
+      "name": "symbols",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function symbols",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::imports::I13",
+      "name": "imports",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function imports",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::aHot::I14",
+      "name": "aHot",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function aHot",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::function::bHot::I15",
+      "name": "bHot",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function bHot",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::if::I2",
+      "name": "if",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::for::I3",
+      "name": "for",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::if::I4",
+      "name": "if",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::for::I5",
+      "name": "for",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::if::I6",
+      "name": "if",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::for::I7",
+      "name": "for",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::for::I8",
+      "name": "for",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::for::I9",
+      "name": "for",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::if::I10",
+      "name": "if",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::for::I11",
+      "name": "for",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::if::I12",
+      "name": "if",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/context.ts::method::for::I13",
+      "name": "for",
+      "kind": "method",
+      "file": "src/context.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 359
+    },
+    {
+      "id": "src/graphStore.ts::file::src/graphStore.ts::I1",
+      "name": "src/graphStore.ts",
+      "kind": "file",
+      "file": "src/graphStore.ts",
+      "signature": "file:90da5958",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 270
+    },
+    {
+      "id": "src/graphStore.ts::class::GraphStore::I1",
+      "name": "GraphStore",
+      "kind": "class",
+      "file": "src/graphStore.ts",
+      "signature": "class GraphStore",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 270
+    },
+    {
+      "id": "src/graphStore.ts::function::tx::I1",
+      "name": "tx",
+      "kind": "function",
+      "file": "src/graphStore.ts",
+      "signature": "function tx",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 270
+    },
+    {
+      "id": "src/graphStore.ts::method::constructor::I1",
+      "name": "constructor",
+      "kind": "method",
+      "file": "src/graphStore.ts",
+      "signature": "method constructor",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 270
+    },
+    {
+      "id": "src/graphStore.ts::method::for::I2",
+      "name": "for",
+      "kind": "method",
+      "file": "src/graphStore.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 270
+    },
+    {
+      "id": "src/graphStore.ts::method::for::I3",
+      "name": "for",
+      "kind": "method",
+      "file": "src/graphStore.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 270
+    },
+    {
+      "id": "src/graphStore.ts::method::for::I4",
+      "name": "for",
+      "kind": "method",
+      "file": "src/graphStore.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 270
+    },
+    {
+      "id": "src/graphStore.ts::method::for::I5",
+      "name": "for",
+      "kind": "method",
+      "file": "src/graphStore.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 270
+    },
+    {
+      "id": "src/hotpath.ts::file::src/hotpath.ts::I1",
+      "name": "src/hotpath.ts",
+      "kind": "file",
+      "file": "src/hotpath.ts",
+      "signature": "file:bef7e4f9",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 54
+    },
+    {
+      "id": "src/hotpath.ts::function::computeHotPath::I1",
+      "name": "computeHotPath",
+      "kind": "function",
+      "file": "src/hotpath.ts",
+      "signature": "function computeHotPath",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 54
+    },
+    {
+      "id": "src/hotpath.ts::method::for::I1",
+      "name": "for",
+      "kind": "method",
+      "file": "src/hotpath.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 54
+    },
+    {
+      "id": "src/hotpath.ts::method::if::I2",
+      "name": "if",
+      "kind": "method",
+      "file": "src/hotpath.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 54
+    },
+    {
+      "id": "src/hotpath.ts::method::if::I3",
+      "name": "if",
+      "kind": "method",
+      "file": "src/hotpath.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 54
+    },
+    {
+      "id": "src/incremental.ts::file::src/incremental.ts::I1",
+      "name": "src/incremental.ts",
+      "kind": "file",
+      "file": "src/incremental.ts",
+      "signature": "file:8510d774",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::function::hashFile::I1",
+      "name": "hashFile",
+      "kind": "function",
+      "file": "src/incremental.ts",
+      "signature": "function hashFile",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::function::collectRepoFiles::I2",
+      "name": "collectRepoFiles",
+      "kind": "function",
+      "file": "src/incremental.ts",
+      "signature": "function collectRepoFiles",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::function::rel::I3",
+      "name": "rel",
+      "kind": "function",
+      "file": "src/incremental.ts",
+      "signature": "function rel",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::function::detectChangedFiles::I4",
+      "name": "detectChangedFiles",
+      "kind": "function",
+      "file": "src/incremental.ts",
+      "signature": "function detectChangedFiles",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::method::while::I1",
+      "name": "while",
+      "kind": "method",
+      "file": "src/incremental.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::method::for::I2",
+      "name": "for",
+      "kind": "method",
+      "file": "src/incremental.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::method::if::I3",
+      "name": "if",
+      "kind": "method",
+      "file": "src/incremental.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::method::if::I4",
+      "name": "if",
+      "kind": "method",
+      "file": "src/incremental.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::method::for::I5",
+      "name": "for",
+      "kind": "method",
+      "file": "src/incremental.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::method::if::I6",
+      "name": "if",
+      "kind": "method",
+      "file": "src/incremental.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/incremental.ts::interface::CacheData::I1",
+      "name": "CacheData",
+      "kind": "interface",
+      "file": "src/incremental.ts",
+      "signature": "interface CacheData",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 72
+    },
+    {
+      "id": "src/indexer.ts::file::src/indexer.ts::I1",
+      "name": "src/indexer.ts",
+      "kind": "file",
+      "file": "src/indexer.ts",
+      "signature": "file:27fe992b",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::function::normalizePath::I1",
+      "name": "normalizePath",
+      "kind": "function",
+      "file": "src/indexer.ts",
+      "signature": "function normalizePath",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::function::buildSymbolId::I2",
+      "name": "buildSymbolId",
+      "kind": "function",
+      "file": "src/indexer.ts",
+      "signature": "function buildSymbolId",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::function::isRepoSourceFile::I3",
+      "name": "isRepoSourceFile",
+      "kind": "function",
+      "file": "src/indexer.ts",
+      "signature": "function isRepoSourceFile",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::function::indexProject::I4",
+      "name": "indexProject",
+      "kind": "function",
+      "file": "src/indexer.ts",
+      "signature": "function indexProject",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::function::specifiers::I5",
+      "name": "specifiers",
+      "kind": "function",
+      "file": "src/indexer.ts",
+      "signature": "function specifiers",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::function::files::I6",
+      "name": "files",
+      "kind": "function",
+      "file": "src/indexer.ts",
+      "signature": "function files",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::method::for::I1",
+      "name": "for",
+      "kind": "method",
+      "file": "src/indexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::method::for::I2",
+      "name": "for",
+      "kind": "method",
+      "file": "src/indexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::method::for::I3",
+      "name": "for",
+      "kind": "method",
+      "file": "src/indexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::method::for::I4",
+      "name": "for",
+      "kind": "method",
+      "file": "src/indexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::method::if::I5",
+      "name": "if",
+      "kind": "method",
+      "file": "src/indexer.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::method::for::I6",
+      "name": "for",
+      "kind": "method",
+      "file": "src/indexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::method::if::I7",
+      "name": "if",
+      "kind": "method",
+      "file": "src/indexer.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::method::for::I8",
+      "name": "for",
+      "kind": "method",
+      "file": "src/indexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/indexer.ts::method::for::I9",
+      "name": "for",
+      "kind": "method",
+      "file": "src/indexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 174
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::file::src/lspSemanticAdapter.ts::I1",
+      "name": "src/lspSemanticAdapter.ts",
+      "kind": "file",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "file:7df3feb6",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::function::normalizeFile::I1",
+      "name": "normalizeFile",
+      "kind": "function",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "function normalizeFile",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::function::symbolId::I2",
+      "name": "symbolId",
+      "kind": "function",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "function symbolId",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::function::loadIndexFile::I3",
+      "name": "loadIndexFile",
+      "kind": "function",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "function loadIndexFile",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::function::indexProjectFromLsp::I4",
+      "name": "indexProjectFromLsp",
+      "kind": "function",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "function indexProjectFromLsp",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::function::files::I5",
+      "name": "files",
+      "kind": "function",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "function files",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::function::fallbackCaller::I6",
+      "name": "fallbackCaller",
+      "kind": "function",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "function fallbackCaller",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::method::if::I2",
+      "name": "if",
+      "kind": "method",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::method::for::I3",
+      "name": "for",
+      "kind": "method",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::method::for::I4",
+      "name": "for",
+      "kind": "method",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::method::if::I5",
+      "name": "if",
+      "kind": "method",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::method::for::I6",
+      "name": "for",
+      "kind": "method",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::method::if::I7",
+      "name": "if",
+      "kind": "method",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::method::if::I8",
+      "name": "if",
+      "kind": "method",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::method::if::I9",
+      "name": "if",
+      "kind": "method",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::interface::LspSymbol::I1",
+      "name": "LspSymbol",
+      "kind": "interface",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "interface LspSymbol",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::interface::LspReference::I2",
+      "name": "LspReference",
+      "kind": "interface",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "interface LspReference",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/lspSemanticAdapter.ts::interface::LspIndex::I3",
+      "name": "LspIndex",
+      "kind": "interface",
+      "file": "src/lspSemanticAdapter.ts",
+      "signature": "interface LspIndex",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcpServer.ts::file::src/mcpServer.ts::I1",
+      "name": "src/mcpServer.ts",
+      "kind": "file",
+      "file": "src/mcpServer.ts",
+      "signature": "file:da3468ef",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 29
+    },
+    {
+      "id": "src/mcpServer.ts::function::main::I1",
+      "name": "main",
+      "kind": "function",
+      "file": "src/mcpServer.ts",
+      "signature": "function main",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 29
+    },
+    {
+      "id": "src/oneClick.ts::file::src/oneClick.ts::I1",
+      "name": "src/oneClick.ts",
+      "kind": "file",
+      "file": "src/oneClick.ts",
+      "signature": "file:af65ef9e",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 218
+    },
+    {
+      "id": "src/oneClick.ts::function::pickTargetFile::I1",
+      "name": "pickTargetFile",
+      "kind": "function",
+      "file": "src/oneClick.ts",
+      "signature": "function pickTargetFile",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 218
+    },
+    {
+      "id": "src/oneClick.ts::function::changedCandidate::I2",
+      "name": "changedCandidate",
+      "kind": "function",
+      "file": "src/oneClick.ts",
+      "signature": "function changedCandidate",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 218
+    },
+    {
+      "id": "src/oneClick.ts::function::graphCandidate::I3",
+      "name": "graphCandidate",
+      "kind": "function",
+      "file": "src/oneClick.ts",
+      "signature": "function graphCandidate",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 218
+    },
+    {
+      "id": "src/parserAdapter.ts::file::src/parserAdapter.ts::I1",
+      "name": "src/parserAdapter.ts",
+      "kind": "file",
+      "file": "src/parserAdapter.ts",
+      "signature": "file:c87826cb",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::class::TsMorphParserAdapter::I1",
+      "name": "TsMorphParserAdapter",
+      "kind": "class",
+      "file": "src/parserAdapter.ts",
+      "signature": "class TsMorphParserAdapter",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::class::LspParserAdapter::I2",
+      "name": "LspParserAdapter",
+      "kind": "class",
+      "file": "src/parserAdapter.ts",
+      "signature": "class LspParserAdapter",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::class::UniversalParserAdapter::I3",
+      "name": "UniversalParserAdapter",
+      "kind": "class",
+      "file": "src/parserAdapter.ts",
+      "signature": "class UniversalParserAdapter",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::class::TreeSitterParserAdapter::I4",
+      "name": "TreeSitterParserAdapter",
+      "kind": "class",
+      "file": "src/parserAdapter.ts",
+      "signature": "class TreeSitterParserAdapter",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::function::createParserAdapter::I1",
+      "name": "createParserAdapter",
+      "kind": "function",
+      "file": "src/parserAdapter.ts",
+      "signature": "function createParserAdapter",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/parserAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::method::if::I2",
+      "name": "if",
+      "kind": "method",
+      "file": "src/parserAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::method::if::I3",
+      "name": "if",
+      "kind": "method",
+      "file": "src/parserAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::method::if::I4",
+      "name": "if",
+      "kind": "method",
+      "file": "src/parserAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/parserAdapter.ts::interface::ParserAdapter::I1",
+      "name": "ParserAdapter",
+      "kind": "interface",
+      "file": "src/parserAdapter.ts",
+      "signature": "interface ParserAdapter",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/postprocess.ts::file::src/postprocess.ts::I1",
+      "name": "src/postprocess.ts",
+      "kind": "file",
+      "file": "src/postprocess.ts",
+      "signature": "file:391da13d",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::function::buildUndirected::I1",
+      "name": "buildUndirected",
+      "kind": "function",
+      "file": "src/postprocess.ts",
+      "signature": "function buildUndirected",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::function::detectCommunities::I2",
+      "name": "detectCommunities",
+      "kind": "function",
+      "file": "src/postprocess.ts",
+      "signature": "function detectCommunities",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::function::detectFlows::I3",
+      "name": "detectFlows",
+      "kind": "function",
+      "file": "src/postprocess.ts",
+      "signature": "function detectFlows",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::function::architectureOverview::I4",
+      "name": "architectureOverview",
+      "kind": "function",
+      "file": "src/postprocess.ts",
+      "signature": "function architectureOverview",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::for::I1",
+      "name": "for",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::for::I2",
+      "name": "for",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::while::I3",
+      "name": "while",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::for::I4",
+      "name": "for",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::if::I5",
+      "name": "if",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::for::I6",
+      "name": "for",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::if::I7",
+      "name": "if",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::for::I8",
+      "name": "for",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::for::I9",
+      "name": "for",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::for::I10",
+      "name": "for",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::while::I11",
+      "name": "while",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::if::I12",
+      "name": "if",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::method::for::I13",
+      "name": "for",
+      "kind": "method",
+      "file": "src/postprocess.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::interface::CommunityInfo::I1",
+      "name": "CommunityInfo",
+      "kind": "interface",
+      "file": "src/postprocess.ts",
+      "signature": "interface CommunityInfo",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocess.ts::interface::FlowInfo::I2",
+      "name": "FlowInfo",
+      "kind": "interface",
+      "file": "src/postprocess.ts",
+      "signature": "interface FlowInfo",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/postprocessCli.ts::file::src/postprocessCli.ts::I1",
+      "name": "src/postprocessCli.ts",
+      "kind": "file",
+      "file": "src/postprocessCli.ts",
+      "signature": "file:2d9ac30e",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 25
+    },
+    {
+      "id": "src/postprocessCli.ts::function::main::I1",
+      "name": "main",
+      "kind": "function",
+      "file": "src/postprocessCli.ts",
+      "signature": "function main",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 25
+    },
+    {
+      "id": "src/promptWrapper.ts::file::src/promptWrapper.ts::I1",
+      "name": "src/promptWrapper.ts",
+      "kind": "file",
+      "file": "src/promptWrapper.ts",
+      "signature": "file:562bc562",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::function::providerGuidance::I1",
+      "name": "providerGuidance",
+      "kind": "function",
+      "file": "src/promptWrapper.ts",
+      "signature": "function providerGuidance",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::function::buildSingleStagePromptWrapper::I2",
+      "name": "buildSingleStagePromptWrapper",
+      "kind": "function",
+      "file": "src/promptWrapper.ts",
+      "signature": "function buildSingleStagePromptWrapper",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::function::buildTwoStagePromptWrapper::I3",
+      "name": "buildTwoStagePromptWrapper",
+      "kind": "function",
+      "file": "src/promptWrapper.ts",
+      "signature": "function buildTwoStagePromptWrapper",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/promptWrapper.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::method::if::I2",
+      "name": "if",
+      "kind": "method",
+      "file": "src/promptWrapper.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::method::if::I3",
+      "name": "if",
+      "kind": "method",
+      "file": "src/promptWrapper.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::method::if::I4",
+      "name": "if",
+      "kind": "method",
+      "file": "src/promptWrapper.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::method::if::I5",
+      "name": "if",
+      "kind": "method",
+      "file": "src/promptWrapper.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::method::if::I6",
+      "name": "if",
+      "kind": "method",
+      "file": "src/promptWrapper.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::interface::SingleStageTokenHints::I1",
+      "name": "SingleStageTokenHints",
+      "kind": "interface",
+      "file": "src/promptWrapper.ts",
+      "signature": "interface SingleStageTokenHints",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/promptWrapper.ts::interface::TwoStageTokenHints::I2",
+      "name": "TwoStageTokenHints",
+      "kind": "interface",
+      "file": "src/promptWrapper.ts",
+      "signature": "interface TwoStageTokenHints",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 127
+    },
+    {
+      "id": "src/prune.ts::file::src/prune.ts::I1",
+      "name": "src/prune.ts",
+      "kind": "file",
+      "file": "src/prune.ts",
+      "signature": "file:dcf1511c",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::function::addReason::I1",
+      "name": "addReason",
+      "kind": "function",
+      "file": "src/prune.ts",
+      "signature": "function addReason",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::function::buildAdjacency::I2",
+      "name": "buildAdjacency",
+      "kind": "function",
+      "file": "src/prune.ts",
+      "signature": "function buildAdjacency",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::function::bfs::I3",
+      "name": "bfs",
+      "kind": "function",
+      "file": "src/prune.ts",
+      "signature": "function bfs",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::function::pruneDependencies::I4",
+      "name": "pruneDependencies",
+      "kind": "function",
+      "file": "src/prune.ts",
+      "signature": "function pruneDependencies",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::function::symbolsInFile::I5",
+      "name": "symbolsInFile",
+      "kind": "function",
+      "file": "src/prune.ts",
+      "signature": "function symbolsInFile",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::for::I2",
+      "name": "for",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::while::I3",
+      "name": "while",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::for::I4",
+      "name": "for",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::if::I5",
+      "name": "if",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::for::I6",
+      "name": "for",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::for::I7",
+      "name": "for",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::for::I8",
+      "name": "for",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::if::I9",
+      "name": "if",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::if::I10",
+      "name": "if",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::if::I11",
+      "name": "if",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::for::I12",
+      "name": "for",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::if::I13",
+      "name": "if",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::for::I14",
+      "name": "for",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::method::if::I15",
+      "name": "if",
+      "kind": "method",
+      "file": "src/prune.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/prune.ts::interface::TraversalResult::I1",
+      "name": "TraversalResult",
+      "kind": "interface",
+      "file": "src/prune.ts",
+      "signature": "interface TraversalResult",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 133
+    },
+    {
+      "id": "src/risk.ts::file::src/risk.ts::I1",
+      "name": "src/risk.ts",
+      "kind": "file",
+      "file": "src/risk.ts",
+      "signature": "file:3e418e3e",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 36
+    },
+    {
+      "id": "src/risk.ts::function::scoreChangeRisk::I1",
+      "name": "scoreChangeRisk",
+      "kind": "function",
+      "file": "src/risk.ts",
+      "signature": "function scoreChangeRisk",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 36
+    },
+    {
+      "id": "src/risk.ts::function::importFanout::I2",
+      "name": "importFanout",
+      "kind": "function",
+      "file": "src/risk.ts",
+      "signature": "function importFanout",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 36
+    },
+    {
+      "id": "src/risk.ts::function::downstreamFanIn::I3",
+      "name": "downstreamFanIn",
+      "kind": "function",
+      "file": "src/risk.ts",
+      "signature": "function downstreamFanIn",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 36
+    },
+    {
+      "id": "src/risk.ts::function::changedSymbols::I4",
+      "name": "changedSymbols",
+      "kind": "function",
+      "file": "src/risk.ts",
+      "signature": "function changedSymbols",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 36
+    },
+    {
+      "id": "src/risk.ts::interface::RiskScore::I1",
+      "name": "RiskScore",
+      "kind": "interface",
+      "file": "src/risk.ts",
+      "signature": "interface RiskScore",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 36
+    },
+    {
+      "id": "src/tokenUsage.ts::file::src/tokenUsage.ts::I1",
+      "name": "src/tokenUsage.ts",
+      "kind": "file",
+      "file": "src/tokenUsage.ts",
+      "signature": "file:bca12371",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::estimateTokens::I1",
+      "name": "estimateTokens",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function estimateTokens",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::padRight::I2",
+      "name": "padRight",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function padRight",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::progressBar::I3",
+      "name": "progressBar",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function progressBar",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::renderCliTokenDashboard::I4",
+      "name": "renderCliTokenDashboard",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function renderCliTokenDashboard",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::createTokenUsageSnapshot::I5",
+      "name": "createTokenUsageSnapshot",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function createTokenUsageSnapshot",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::createTokenEfficiencyComparison::I6",
+      "name": "createTokenEfficiencyComparison",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function createTokenEfficiencyComparison",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::escapeHtml::I7",
+      "name": "escapeHtml",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function escapeHtml",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::formatLabel::I8",
+      "name": "formatLabel",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function formatLabel",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::usageClass::I9",
+      "name": "usageClass",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function usageClass",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::function::renderTokenUsageDashboard::I10",
+      "name": "renderTokenUsageDashboard",
+      "kind": "function",
+      "file": "src/tokenUsage.ts",
+      "signature": "function renderTokenUsageDashboard",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/tokenUsage.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::method::for::I2",
+      "name": "for",
+      "kind": "method",
+      "file": "src/tokenUsage.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::method::media::I3",
+      "name": "media",
+      "kind": "method",
+      "file": "src/tokenUsage.ts",
+      "signature": "method media",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::interface::TokenUsageSnapshot::I1",
+      "name": "TokenUsageSnapshot",
+      "kind": "interface",
+      "file": "src/tokenUsage.ts",
+      "signature": "interface TokenUsageSnapshot",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::interface::TokenUsageReport::I2",
+      "name": "TokenUsageReport",
+      "kind": "interface",
+      "file": "src/tokenUsage.ts",
+      "signature": "interface TokenUsageReport",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::interface::TokenDashboardRenderOptions::I3",
+      "name": "TokenDashboardRenderOptions",
+      "kind": "interface",
+      "file": "src/tokenUsage.ts",
+      "signature": "interface TokenDashboardRenderOptions",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::interface::TokenEfficiencySide::I4",
+      "name": "TokenEfficiencySide",
+      "kind": "interface",
+      "file": "src/tokenUsage.ts",
+      "signature": "interface TokenEfficiencySide",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/tokenUsage.ts::interface::TokenEfficiencyComparison::I5",
+      "name": "TokenEfficiencyComparison",
+      "kind": "interface",
+      "file": "src/tokenUsage.ts",
+      "signature": "interface TokenEfficiencyComparison",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 319
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::file::src/treeSitterAdapter.ts::I1",
+      "name": "src/treeSitterAdapter.ts",
+      "kind": "file",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "file:5aecaa4b",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::normalizePath::I1",
+      "name": "normalizePath",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function normalizePath",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::collectFiles::I2",
+      "name": "collectFiles",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function collectFiles",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::nodeText::I3",
+      "name": "nodeText",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function nodeText",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::getNamedChild::I4",
+      "name": "getNamedChild",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function getNamedChild",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::symbolId::I5",
+      "name": "symbolId",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function symbolId",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::pushSymbol::I6",
+      "name": "pushSymbol",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function pushSymbol",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::parseJsTsFile::I7",
+      "name": "parseJsTsFile",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function parseJsTsFile",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::parsePythonFile::I8",
+      "name": "parsePythonFile",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function parsePythonFile",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::indexProjectTreeSitter::I9",
+      "name": "indexProjectTreeSitter",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function indexProjectTreeSitter",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::files::I10",
+      "name": "files",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function files",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::coveredFiles::I11",
+      "name": "coveredFiles",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function coveredFiles",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::function::caller::I12",
+      "name": "caller",
+      "kind": "function",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "function caller",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::while::I1",
+      "name": "while",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::for::I2",
+      "name": "for",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I3",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I4",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::while::I5",
+      "name": "while",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I6",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I7",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I8",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I9",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I10",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I11",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I12",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::while::I13",
+      "name": "while",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I14",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I15",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::for::I16",
+      "name": "for",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::while::I17",
+      "name": "while",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I18",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I19",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I20",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I21",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I22",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I23",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I24",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::while::I25",
+      "name": "while",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I26",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I27",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::for::I28",
+      "name": "for",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::for::I29",
+      "name": "for",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I30",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/treeSitterAdapter.ts::method::if::I31",
+      "name": "if",
+      "kind": "method",
+      "file": "src/treeSitterAdapter.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 283
+    },
+    {
+      "id": "src/types.ts::file::src/types.ts::I1",
+      "name": "src/types.ts",
+      "kind": "file",
+      "file": "src/types.ts",
+      "signature": "file:aa28e779",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::interface::SymbolSummary::I1",
+      "name": "SymbolSummary",
+      "kind": "interface",
+      "file": "src/types.ts",
+      "signature": "interface SymbolSummary",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::interface::ImportEdge::I2",
+      "name": "ImportEdge",
+      "kind": "interface",
+      "file": "src/types.ts",
+      "signature": "interface ImportEdge",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::interface::CallEdge::I3",
+      "name": "CallEdge",
+      "kind": "interface",
+      "file": "src/types.ts",
+      "signature": "interface CallEdge",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::interface::GraphData::I4",
+      "name": "GraphData",
+      "kind": "interface",
+      "file": "src/types.ts",
+      "signature": "interface GraphData",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::interface::HotPathScore::I5",
+      "name": "HotPathScore",
+      "kind": "interface",
+      "file": "src/types.ts",
+      "signature": "interface HotPathScore",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::interface::ContextRequest::I6",
+      "name": "ContextRequest",
+      "kind": "interface",
+      "file": "src/types.ts",
+      "signature": "interface ContextRequest",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::interface::PrunedContextSelection::I7",
+      "name": "PrunedContextSelection",
+      "kind": "interface",
+      "file": "src/types.ts",
+      "signature": "interface PrunedContextSelection",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::interface::ParserIndexOptions::I8",
+      "name": "ParserIndexOptions",
+      "kind": "interface",
+      "file": "src/types.ts",
+      "signature": "interface ParserIndexOptions",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::interface::ContextBudget::I9",
+      "name": "ContextBudget",
+      "kind": "interface",
+      "file": "src/types.ts",
+      "signature": "interface ContextBudget",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::type::SymbolKind::I1",
+      "name": "SymbolKind",
+      "kind": "type",
+      "file": "src/types.ts",
+      "signature": "type SymbolKind",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::type::ParserBackend::I2",
+      "name": "ParserBackend",
+      "kind": "type",
+      "file": "src/types.ts",
+      "signature": "type ParserBackend",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::type::AiProvider::I3",
+      "name": "AiProvider",
+      "kind": "type",
+      "file": "src/types.ts",
+      "signature": "type AiProvider",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/types.ts::type::CompressionMode::I4",
+      "name": "CompressionMode",
+      "kind": "type",
+      "file": "src/types.ts",
+      "signature": "type CompressionMode",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 94
+    },
+    {
+      "id": "src/universalIndexer.ts::file::src/universalIndexer.ts::I1",
+      "name": "src/universalIndexer.ts",
+      "kind": "file",
+      "file": "src/universalIndexer.ts",
+      "signature": "file:0ec36f63",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::normalizePath::I1",
+      "name": "normalizePath",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function normalizePath",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::getLanguage::I2",
+      "name": "getLanguage",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function getLanguage",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::patternSetFor::I3",
+      "name": "patternSetFor",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function patternSetFor",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::hashText::I4",
+      "name": "hashText",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function hashText",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::buildSymbolId::I5",
+      "name": "buildSymbolId",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function buildSymbolId",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::findAllMatches::I6",
+      "name": "findAllMatches",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function findAllMatches",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::collectFiles::I7",
+      "name": "collectFiles",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function collectFiles",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::resolveImport::I8",
+      "name": "resolveImport",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function resolveImport",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::indexProjectUniversal::I9",
+      "name": "indexProjectUniversal",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function indexProjectUniversal",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::files::I10",
+      "name": "files",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function files",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::function::registerSymbols::I11",
+      "name": "registerSymbols",
+      "kind": "function",
+      "file": "src/universalIndexer.ts",
+      "signature": "function registerSymbols",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::for::I1",
+      "name": "for",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::while::I2",
+      "name": "while",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method while",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::for::I3",
+      "name": "for",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::if::I4",
+      "name": "if",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::if::I5",
+      "name": "if",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::if::I6",
+      "name": "if",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::if::I7",
+      "name": "if",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::for::I8",
+      "name": "for",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::for::I9",
+      "name": "for",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::for::I10",
+      "name": "for",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::for::I11",
+      "name": "for",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::method::for::I12",
+      "name": "for",
+      "kind": "method",
+      "file": "src/universalIndexer.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/universalIndexer.ts::interface::LanguagePattern::I1",
+      "name": "LanguagePattern",
+      "kind": "interface",
+      "file": "src/universalIndexer.ts",
+      "signature": "interface LanguagePattern",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 250
+    },
+    {
+      "id": "src/mcp/common.ts::file::src/mcp/common.ts::I1",
+      "name": "src/mcp/common.ts",
+      "kind": "file",
+      "file": "src/mcp/common.ts",
+      "signature": "file:af5c0a1d",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/mcp/common.ts::function::ok::I1",
+      "name": "ok",
+      "kind": "function",
+      "file": "src/mcp/common.ts",
+      "signature": "function ok",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/mcp/common.ts::function::fail::I2",
+      "name": "fail",
+      "kind": "function",
+      "file": "src/mcp/common.ts",
+      "signature": "function fail",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/mcp/common.ts::function::resolveRoot::I3",
+      "name": "resolveRoot",
+      "kind": "function",
+      "file": "src/mcp/common.ts",
+      "signature": "function resolveRoot",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/mcp/common.ts::function::estimateTokens::I4",
+      "name": "estimateTokens",
+      "kind": "function",
+      "file": "src/mcp/common.ts",
+      "signature": "function estimateTokens",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/mcp/common.ts::function::computeBridgeNodes::I5",
+      "name": "computeBridgeNodes",
+      "kind": "function",
+      "file": "src/mcp/common.ts",
+      "signature": "function computeBridgeNodes",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/mcp/common.ts::method::ok::I1",
+      "name": "ok",
+      "kind": "method",
+      "file": "src/mcp/common.ts",
+      "signature": "method ok",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/mcp/common.ts::method::fail::I2",
+      "name": "fail",
+      "kind": "method",
+      "file": "src/mcp/common.ts",
+      "signature": "method fail",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/mcp/common.ts::method::for::I3",
+      "name": "for",
+      "kind": "method",
+      "file": "src/mcp/common.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 61
+    },
+    {
+      "id": "src/mcp/tools/analysis.ts::file::src/mcp/tools/analysis.ts::I1",
+      "name": "src/mcp/tools/analysis.ts",
+      "kind": "file",
+      "file": "src/mcp/tools/analysis.ts",
+      "signature": "file:7c69b639",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 166
+    },
+    {
+      "id": "src/mcp/tools/analysis.ts::function::registerAnalysisTools::I1",
+      "name": "registerAnalysisTools",
+      "kind": "function",
+      "file": "src/mcp/tools/analysis.ts",
+      "signature": "function registerAnalysisTools",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 166
+    },
+    {
+      "id": "src/mcp/tools/analysis.ts::method::catch::I1",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/analysis.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 166
+    },
+    {
+      "id": "src/mcp/tools/analysis.ts::method::catch::I2",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/analysis.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 166
+    },
+    {
+      "id": "src/mcp/tools/analysis.ts::method::if::I3",
+      "name": "if",
+      "kind": "method",
+      "file": "src/mcp/tools/analysis.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 166
+    },
+    {
+      "id": "src/mcp/tools/analysis.ts::method::catch::I4",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/analysis.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 166
+    },
+    {
+      "id": "src/mcp/tools/analysis.ts::method::catch::I5",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/analysis.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 166
+    },
+    {
+      "id": "src/mcp/tools/analysis.ts::method::if::I6",
+      "name": "if",
+      "kind": "method",
+      "file": "src/mcp/tools/analysis.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 166
+    },
+    {
+      "id": "src/mcp/tools/analysis.ts::method::catch::I7",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/analysis.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 166
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::file::src/mcp/tools/communities.ts::I1",
+      "name": "src/mcp/tools/communities.ts",
+      "kind": "file",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "file:fa2d7466",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::function::registerCommunityTools::I1",
+      "name": "registerCommunityTools",
+      "kind": "function",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "function registerCommunityTools",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::function::community::I2",
+      "name": "community",
+      "kind": "function",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "function community",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::method::catch::I1",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::method::catch::I2",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::method::catch::I3",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::method::catch::I4",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::method::catch::I5",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::method::for::I6",
+      "name": "for",
+      "kind": "method",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::method::if::I7",
+      "name": "if",
+      "kind": "method",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/communities.ts::method::catch::I8",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/communities.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/core.ts::file::src/mcp/tools/core.ts::I1",
+      "name": "src/mcp/tools/core.ts",
+      "kind": "file",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "file:6eab9f2b",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/core.ts::function::registerCoreTools::I1",
+      "name": "registerCoreTools",
+      "kind": "function",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "function registerCoreTools",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/core.ts::function::symbols::I2",
+      "name": "symbols",
+      "kind": "function",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "function symbols",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/core.ts::method::catch::I1",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/core.ts::method::catch::I2",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/core.ts::method::catch::I3",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/core.ts::method::catch::I4",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/core.ts::method::catch::I5",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/core.ts::method::catch::I6",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/core.ts::method::catch::I7",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/core.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 153
+    },
+    {
+      "id": "src/mcp/tools/flows.ts::file::src/mcp/tools/flows.ts::I1",
+      "name": "src/mcp/tools/flows.ts",
+      "kind": "file",
+      "file": "src/mcp/tools/flows.ts",
+      "signature": "file:d590d7c8",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 86
+    },
+    {
+      "id": "src/mcp/tools/flows.ts::function::registerFlowTools::I1",
+      "name": "registerFlowTools",
+      "kind": "function",
+      "file": "src/mcp/tools/flows.ts",
+      "signature": "function registerFlowTools",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 86
+    },
+    {
+      "id": "src/mcp/tools/flows.ts::function::flow::I2",
+      "name": "flow",
+      "kind": "function",
+      "file": "src/mcp/tools/flows.ts",
+      "signature": "function flow",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 86
+    },
+    {
+      "id": "src/mcp/tools/flows.ts::function::affected::I3",
+      "name": "affected",
+      "kind": "function",
+      "file": "src/mcp/tools/flows.ts",
+      "signature": "function affected",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 86
+    },
+    {
+      "id": "src/mcp/tools/flows.ts::method::catch::I1",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/flows.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 86
+    },
+    {
+      "id": "src/mcp/tools/flows.ts::method::catch::I2",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/flows.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 86
+    },
+    {
+      "id": "src/mcp/tools/flows.ts::method::catch::I3",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/flows.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 86
+    },
+    {
+      "id": "src/mcp/tools/flows.ts::method::catch::I4",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/flows.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 86
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::file::src/mcp/tools/registry.ts::I1",
+      "name": "src/mcp/tools/registry.ts",
+      "kind": "file",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "file:d8dcd38e",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::function::registryPath::I1",
+      "name": "registryPath",
+      "kind": "function",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "function registryPath",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::function::readRegistry::I2",
+      "name": "readRegistry",
+      "kind": "function",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "function readRegistry",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::function::writeRegistry::I3",
+      "name": "writeRegistry",
+      "kind": "function",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "function writeRegistry",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::function::registerRegistryTools::I4",
+      "name": "registerRegistryTools",
+      "kind": "function",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "function registerRegistryTools",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::function::next::I5",
+      "name": "next",
+      "kind": "function",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "function next",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::method::if::I1",
+      "name": "if",
+      "kind": "method",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::method::catch::I2",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::method::catch::I3",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::method::catch::I4",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::method::for::I5",
+      "name": "for",
+      "kind": "method",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::method::for::I6",
+      "name": "for",
+      "kind": "method",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "method for",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::method::if::I7",
+      "name": "if",
+      "kind": "method",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "method if",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::method::catch::I8",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/registry.ts::interface::RegistryItem::I1",
+      "name": "RegistryItem",
+      "kind": "interface",
+      "file": "src/mcp/tools/registry.ts",
+      "signature": "interface RegistryItem",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 125
+    },
+    {
+      "id": "src/mcp/tools/review.ts::file::src/mcp/tools/review.ts::I1",
+      "name": "src/mcp/tools/review.ts",
+      "kind": "file",
+      "file": "src/mcp/tools/review.ts",
+      "signature": "file:8440a377",
+      "exported": false,
+      "locStart": 1,
+      "locEnd": 139
+    },
+    {
+      "id": "src/mcp/tools/review.ts::function::registerReviewTools::I1",
+      "name": "registerReviewTools",
+      "kind": "function",
+      "file": "src/mcp/tools/review.ts",
+      "signature": "function registerReviewTools",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 139
+    },
+    {
+      "id": "src/mcp/tools/review.ts::method::catch::I1",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/review.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 139
+    },
+    {
+      "id": "src/mcp/tools/review.ts::method::catch::I2",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/review.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 139
+    },
+    {
+      "id": "src/mcp/tools/review.ts::method::catch::I3",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/review.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 139
+    },
+    {
+      "id": "src/mcp/tools/review.ts::method::catch::I4",
+      "name": "catch",
+      "kind": "method",
+      "file": "src/mcp/tools/review.ts",
+      "signature": "method catch",
+      "exported": true,
+      "locStart": 1,
+      "locEnd": 139
+    }
+  ],
+  "importEdges": [
+    {
+      "fromFile": "vscode-smart-context-wrapper/extension.js",
+      "toFile": "external:vscode",
+      "specifiers": []
+    },
+    {
+      "fromFile": "vscode-smart-context-wrapper/extension.js",
+      "toFile": "external:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "external:node:perf_hooks",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "src/parserAdapter",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "src/graphStore",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "src/prune",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "src/hotpath",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "src/budget",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "src/context",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmark.ts",
+      "toFile": "src/postprocess",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmarkGate.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmarkGate.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmarkTrend.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/benchmarkTrend.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/budget.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "external:commander",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/prune",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/hotpath",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/parserAdapter",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/incremental",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/graphStore",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/risk",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/budget",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/promptWrapper",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/graphStore.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/graphStore.ts",
+      "toFile": "external:better-sqlite3",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/graphStore.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/hotpath.ts",
+      "toFile": "external:node:child_process",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/hotpath.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/hotpath.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/incremental.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/incremental.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/incremental.ts",
+      "toFile": "external:node:crypto",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/indexer.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/indexer.ts",
+      "toFile": "external:ts-morph",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/indexer.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/lspSemanticAdapter.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/lspSemanticAdapter.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/lspSemanticAdapter.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcpServer.ts",
+      "toFile": "external:@modelcontextprotocol/sdk/server/mcp.js",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcpServer.ts",
+      "toFile": "external:@modelcontextprotocol/sdk/server/stdio.js",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcpServer.ts",
+      "toFile": "src/mcp/tools/core",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcpServer.ts",
+      "toFile": "src/mcp/tools/review",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcpServer.ts",
+      "toFile": "src/mcp/tools/flows",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcpServer.ts",
+      "toFile": "src/mcp/tools/communities",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcpServer.ts",
+      "toFile": "src/mcp/tools/analysis",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcpServer.ts",
+      "toFile": "src/mcp/tools/registry",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "external:commander",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "src/parserAdapter",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "src/prune",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "src/hotpath",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "src/budget",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "src/context",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "src/promptWrapper",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/oneClick.ts",
+      "toFile": "src/incremental",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/parserAdapter.ts",
+      "toFile": "src/indexer",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/parserAdapter.ts",
+      "toFile": "src/universalIndexer",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/parserAdapter.ts",
+      "toFile": "src/lspSemanticAdapter",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/parserAdapter.ts",
+      "toFile": "src/treeSitterAdapter",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/parserAdapter.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/postprocess.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/postprocessCli.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/postprocessCli.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/postprocessCli.ts",
+      "toFile": "src/graphStore",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/postprocessCli.ts",
+      "toFile": "src/postprocess",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/promptWrapper.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/prune.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/risk.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/treeSitterAdapter.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/treeSitterAdapter.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/treeSitterAdapter.ts",
+      "toFile": "external:tree-sitter",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/treeSitterAdapter.ts",
+      "toFile": "external:tree-sitter-javascript",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/treeSitterAdapter.ts",
+      "toFile": "external:tree-sitter-typescript",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/treeSitterAdapter.ts",
+      "toFile": "external:tree-sitter-python",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/treeSitterAdapter.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/treeSitterAdapter.ts",
+      "toFile": "src/universalIndexer",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/universalIndexer.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/universalIndexer.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/universalIndexer.ts",
+      "toFile": "external:node:crypto",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/universalIndexer.ts",
+      "toFile": "src/types",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/common.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/common.ts",
+      "toFile": "external:zod",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/analysis.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/analysis.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/analysis.ts",
+      "toFile": "external:zod",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/analysis.ts",
+      "toFile": "src/graphStore",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/analysis.ts",
+      "toFile": "src/postprocess",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/analysis.ts",
+      "toFile": "src/mcp/common",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/communities.ts",
+      "toFile": "external:zod",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/communities.ts",
+      "toFile": "src/graphStore",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/communities.ts",
+      "toFile": "src/postprocess",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/communities.ts",
+      "toFile": "src/mcp/common",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/core.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/core.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/core.ts",
+      "toFile": "external:zod",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/core.ts",
+      "toFile": "src/parserAdapter",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/core.ts",
+      "toFile": "src/graphStore",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/core.ts",
+      "toFile": "src/mcp/common",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/flows.ts",
+      "toFile": "external:zod",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/flows.ts",
+      "toFile": "src/graphStore",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/flows.ts",
+      "toFile": "src/postprocess",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/flows.ts",
+      "toFile": "src/incremental",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/flows.ts",
+      "toFile": "src/hotpath",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/flows.ts",
+      "toFile": "src/mcp/common",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/registry.ts",
+      "toFile": "external:node:fs",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/registry.ts",
+      "toFile": "external:node:path",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/registry.ts",
+      "toFile": "external:zod",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/registry.ts",
+      "toFile": "src/graphStore",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/registry.ts",
+      "toFile": "src/mcp/common",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/review.ts",
+      "toFile": "external:zod",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/review.ts",
+      "toFile": "src/graphStore",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/review.ts",
+      "toFile": "src/incremental",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/review.ts",
+      "toFile": "src/risk",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/review.ts",
+      "toFile": "src/prune",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/review.ts",
+      "toFile": "src/hotpath",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/review.ts",
+      "toFile": "src/budget",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/review.ts",
+      "toFile": "src/context",
+      "specifiers": []
+    },
+    {
+      "fromFile": "src/mcp/tools/review.ts",
+      "toFile": "src/mcp/common",
+      "specifiers": []
+    }
+  ],
+  "callEdges": [],
+  "generatedAt": "2026-04-18T21:11:52.457Z"
+}

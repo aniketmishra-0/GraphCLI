@@ -1,0 +1,48 @@
+{
+  "name": "graphcli",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Token-efficient code context mapping CLI for AI code review",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "graphcli": "dist/cli.js",
+    "graphcli-one-click": "dist/oneClick.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "NODE_OPTIONS=--max-old-space-size=8192 tsc -p tsconfig.json",
+    "start": "node dist/cli.js",
+    "dev": "NODE_OPTIONS=--max-old-space-size=4096 ts-node src/cli.ts",
+    "one-click": "NODE_OPTIONS=--max-old-space-size=4096 ts-node src/oneClick.ts",
+    "dev:fast": "NODE_OPTIONS=--max-old-space-size=4096 ts-node src/cli.ts --backend treesitter --compression ultra --hard-cap --max-tokens 2200",
+    "one-click:fast": "NODE_OPTIONS=--max-old-space-size=4096 ts-node src/oneClick.ts --backend treesitter --compression ultra --hard-cap --max-tokens 2200",
+    "serve:mcp": "NODE_OPTIONS=--max-old-space-size=4096 ts-node src/mcpServer.ts",
+    "benchmark": "NODE_OPTIONS=--max-old-space-size=4096 ts-node src/benchmark.ts",
+    "benchmark:trend": "NODE_OPTIONS=--max-old-space-size=4096 ts-node src/benchmarkTrend.ts",
+    "postprocess": "NODE_OPTIONS=--max-old-space-size=4096 ts-node src/postprocessCli.ts",
+    "benchmark:gate": "NODE_OPTIONS=--max-old-space-size=4096 ts-node src/benchmarkGate.ts",
+    "vscode-ext:package": "cd vscode-smart-context-wrapper && npx @vscode/vsce package",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "better-sqlite3": "^11.8.1",
+    "commander": "^12.1.0",
+    "tree-sitter": "^0.21.1",
+    "tree-sitter-javascript": "^0.21.4",
+    "tree-sitter-python": "^0.21.0",
+    "tree-sitter-typescript": "^0.21.2",
+    "ts-morph": "^23.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}

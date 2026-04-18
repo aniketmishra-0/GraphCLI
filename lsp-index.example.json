@@ -1,0 +1,57 @@
+{
+  "files": [
+    "src/cli.ts",
+    "src/context.ts",
+    "src/prune.ts"
+  ],
+  "symbols": [
+    {
+      "name": "execute",
+      "kind": "function",
+      "file": "src/cli.ts",
+      "signature": "function execute(): void",
+      "exported": false,
+      "locStart": 59,
+      "locEnd": 111
+    },
+    {
+      "name": "generateContextMarkdown",
+      "kind": "function",
+      "file": "src/context.ts",
+      "signature": "function generateContextMarkdown(...)",
+      "exported": true,
+      "locStart": 57,
+      "locEnd": 122
+    },
+    {
+      "name": "pruneDependencies",
+      "kind": "function",
+      "file": "src/prune.ts",
+      "signature": "function pruneDependencies(...)",
+      "exported": true,
+      "locStart": 63,
+      "locEnd": 132
+    }
+  ],
+  "references": [
+    {
+      "fromFile": "src/cli.ts",
+      "fromSymbol": "execute",
+      "toFile": "src/context.ts",
+      "toSymbol": "generateContextMarkdown",
+      "kind": "call"
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/context.ts",
+      "toSymbol": "generateContextMarkdown",
+      "kind": "import"
+    },
+    {
+      "fromFile": "src/cli.ts",
+      "toFile": "src/prune.ts",
+      "toSymbol": "pruneDependencies",
+      "kind": "import"
+    }
+  ]
+}
