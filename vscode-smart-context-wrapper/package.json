@@ -1,7 +1,7 @@
 {
   "name": "graphcli-wrapper",
-  "displayName": "GraphCLI Wrapper",
-  "description": "Command Palette wrapper for GraphCLI fast workflows",
+  "displayName": "AI GraphCLI",
+  "description": "Command Palette wrapper for AI GraphCLI fast workflows",
   "version": "0.0.1",
   "publisher": "d457ec72-2115-6936-b7ea-b4108b0e254f",
   "icon": "icon.png",
@@ -23,23 +23,23 @@
     "commands": [
       {
         "command": "graphcli.runActiveFast",
-        "title": "GraphCLI: Run Active File (Fast)"
+        "title": "AI GraphCLI: Run Active File (Fast)"
       },
       {
         "command": "graphcli.runOneClickFast",
-        "title": "GraphCLI: Run One-Click (Fast)"
+        "title": "AI GraphCLI: Run One-Click (Fast)"
       },
       {
         "command": "graphcli.runWatchActiveFast",
-        "title": "GraphCLI: Run Active File Watch (Fast)"
+        "title": "AI GraphCLI: Run Active File Watch (Fast)"
       },
       {
         "command": "graphcli.openTokenDashboard",
-        "title": "GraphCLI: Open Token Dashboard"
+        "title": "AI GraphCLI: Open Token Dashboard"
       },
       {
         "command": "graphcli.runOneClickAndOpenDashboard",
-        "title": "GraphCLI: One-Click + Open Dashboard"
+        "title": "AI GraphCLI: One-Click + Open Dashboard"
       }
     ]
   }
