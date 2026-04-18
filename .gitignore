@@ -1,0 +1,10 @@
+.smart-context-cache.json
+.smart-context-map.db
+.smart-context-map.db-shm
+.smart-context-map.db-wal
+smart-context-*.json
+smart-context-*.md
+smart-context-*.html
+smart-context-*.xml
+vscode-smart-context-wrapper/*.vsix
+node_modules/
